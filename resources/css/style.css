@@ -26,11 +26,9 @@ header .logo img {
 
 header nav {
   padding-right: 30px;
-}
-
-header nav span {
-  display: inline-block;
-  width: 60px;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 240px;
 }
 
 header nav a {
