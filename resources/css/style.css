@@ -41,3 +41,22 @@ header nav a {
 }
 
 /* Main Content Styles */
+.content {
+  display: flex;
+}
+
+.column {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
