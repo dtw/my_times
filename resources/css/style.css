@@ -91,14 +91,12 @@ header nav a {
   color: white;
   justify-content: center;
   text-align: center;
-  width: 300px;
 }
 
 .lead.image_story {
   font-size: 40px;
   justify-content: flex-start;
   text-align: left;
-  width: 630px;
 }
 
 .copy {
