@@ -6,6 +6,7 @@ div {
   border: 1px solid red;
 }
 
+/* Header Styles */
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -38,3 +39,5 @@ header nav {
 header nav a {
   color: black;
 }
+
+/* Main Content Styles */
