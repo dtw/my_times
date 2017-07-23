@@ -91,16 +91,29 @@ header nav a {
   color: white;
   justify-content: center;
   text-align: center;
+  width: 300px;
 }
 
 .lead.image_story {
   font-size: 40px;
   justify-content: flex-start;
   text-align: left;
+  width: 630px;
 }
 
 .copy {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+.stories {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
