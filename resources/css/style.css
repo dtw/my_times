@@ -36,7 +36,7 @@ header nav {
   width: 240px;
 }
 
-header nav a {
+nav a {
   color: black;
 }
 
@@ -114,4 +114,22 @@ header nav a {
   display: flex;
   flex-direction: column;
   width: 300px;
+}
+
+/* News bites */
+.news_bites h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.news_bites span {
+  display: block;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 10px 20px;
+  border-bottom: 1px solid black;
 }
