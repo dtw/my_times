@@ -2,11 +2,6 @@ body {
   margin: 0px;
 }
 
-div,
-footer {
-  border: 1px solid red;
-}
-
 /* Header Styles */
 header {
   font-family: Verdana;
@@ -54,6 +49,7 @@ nav a {
   justify-content: space-between;
   position: relative;
   top: 80px;
+  padding-top: 36px;
 }
 
 .column {
@@ -98,12 +94,14 @@ nav a {
   color: white;
   justify-content: center;
   text-align: center;
+  align-items: center;
 }
 
 .lead.image_story {
   font-size: 40px;
   justify-content: flex-start;
   text-align: left;
+  align-items: center;
 }
 
 .copy {
@@ -121,6 +119,12 @@ nav a {
   display: flex;
   flex-direction: column;
   width: 300px;
+}
+
+.story h2 {
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 /* News bites */
