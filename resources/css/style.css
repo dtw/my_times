@@ -2,7 +2,8 @@ body {
   margin: 0px;
 }
 
-div {
+div,
+footer {
   border: 1px solid red;
 }
 
@@ -16,6 +17,10 @@ header {
   justify-content: space-between;
   border-bottom: 1px solid black;
   height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  background-color: white;
 }
 
 header .logo {
@@ -47,6 +52,8 @@ nav a {
   max-width: 1270px;
   margin: 0 auto 50px auto;
   justify-content: space-between;
+  position: relative;
+  top: 80px;
 }
 
 .column {
@@ -145,6 +152,8 @@ footer {
   height: 325px;
   align-items: center;
   justify-content: center;
+  position: relative;
+  top: 80px;
 }
 
 footer .footnote {
