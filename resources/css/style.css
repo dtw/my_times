@@ -133,3 +133,36 @@ nav a {
   padding: 10px 20px;
   border-bottom: 1px solid black;
 }
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footnote {
+  padding: 20px 0px;
+}
+
+footer .footnote .title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 30px;
+  border-right: 2px solid white;
+}
+
+footer nav {
+  padding-left: 30px;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 240px;
+}
